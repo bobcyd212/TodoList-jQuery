@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Todo-List</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+</head>
+<body>
+<section class="todoapp">
+  <header class="header">
+    <h1>ToDo</h1>
+    <input type="text" placeholder="What needs to be done?" class="new-todo" autofocus>
+  </header>
+  <section class="main">
+    <ul class="todo-list">
+    </ul>
+  </section>
+  <footer class="footer">
+    <span class="todo-count">
+    </span> 
+    <ul class="filters">
+      <li>
+        <a href="#All" class="selected" id="all">全部</a>
+      </li>
+      <li>
+        <a href="#Active" id="active">未完成</a>
+      </li>
+      <li>
+        <a href="#Completed" id="completed">已完成</a>
+      </li>
+    </ul>
+    <button class="clear-completed">清除完成</button>
+  </footer>
+</section>
+<script src="./index.js"></script>
+</body>
+</html>
